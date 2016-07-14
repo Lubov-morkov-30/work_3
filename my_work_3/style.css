@@ -6,6 +6,7 @@
 	border-left: 1px ridge;
 	border-right: 1px ridge;
 	background: #ffffff;
+	font-family: Arial, sans-serif;
 }
 
 /*LOGO*/
@@ -29,22 +30,25 @@
 	margin: 0;
 	padding: 0;
 	position: relative;
+	font-size:0;
 }
 
 .topmenu li{
-	margin: 0 25px;
-	
+	margin: 0 42px 0 0;
+	width: 100px;
+	text-align: center;
 	list-style-type: none;
 	float: left;
-	position: relative;
 	background: #4f4f4f;
+	display: inline;
+	border-left: 1px solid #4f4f4f;
+	border-right: 1px solid #4f4f4f;
 }
 
 .topmenu ul li a{
-	text-align: center;
 	font-size: 16px;
 	text-decoration: none;
-	width: auto;
+	width: 100px;
 	display: inline-block;
 	color: #ffffff;
 	line-height: 40px;
@@ -52,17 +56,18 @@
 
 .topmenu li:hover{
 	background: #3f3f3f;
-	border-left: 1px transparent #838383;
-	border-right: 1px transparent #838383;
-}
-
-.topmenu li a.active{
-	padding: 0 25px;
-
-	background: #3f3f3f;
 	border-left: 1px solid #838383;
 	border-right: 1px solid #838383;
+	width: 100px;
+
 }
+
+/*.topmenu li a.active{
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	background: #3f3f3f;
+}*/
+
 
 /* CONTENT*/
 
@@ -126,13 +131,13 @@
 	color: #000000;
 }
 
-.main A:active {
+/*.main A:active {
 	background: #f9f9f9;
 	margin-left: 35px;
 	width: auto;
 	color: #000000;
 }
-
+*/
 /*FOOTER*/
 
 .footer{
@@ -147,14 +152,14 @@
 
 .punkt li{
 	float: left;
-	margin-right: 25px;
+	margin-right: 45px;
 }
 .punkt li a{
 	text-decoration: none;
 	display: block;
 	text-align: center;
 	line-height: 40px;
-	padding: 0 23px 0;
+	padding: 0 23px;
 	color: #000000;
 }	
 
@@ -167,7 +172,7 @@
 	color: #000000;
 }
 
-.punkt li a.active{
+.punkt li:hover{
 	text-decoration: underline;
 } 
 
